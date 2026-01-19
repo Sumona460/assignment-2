@@ -46,10 +46,140 @@ color: white;
     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
     color: white;
     font-weight: 600px;
+
+}
+
+/* Banner related style */
+.banner{
+    width: 100%;
+    max-width: 1600px;
+    background-image: url(../assets/hero-bg.png);
+    height: 760px;
+     background-size: cover;
+     background-position: center;
+
+}
+.banner-content{
+    justify-content: center;
+    margin: 0 auto;
+    width: 550px;
+    height: 558px;
+    padding: 100px;
+    background-position: center;
+   
+
+   
+}
+.techwave-content h2{
+    font-size: 3.75rem;
+    font-weight: 800px;
+    color: white;
+    padding-left: 80px;
+ 
+}
+.techwave-content p{
+    color: white;
+    
+    
+}
+.techwave-content{
+    width: 550px;
+    margin: 0 auto;
+
+    
+}
+.btn{
+    display: flex;
+    width: 356px;
+    height: 44px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 25px;
+}
+.first-btn{
+    width: 201px;
+    height: 44px;
+    color: white;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    border: 1px solid #1A0B2E;
+    border-radius: 1000px;
+    margin-top: 20px;
+}
+.first-btn img{
+    width: 1rem;
+    height: 1rem;
+}
+
+.second-btn{
+    width: 147px;
+    height: 44px;
+    color: #00FF88;
+    background-color: transparent;
+    border: 1px solid #00FF88;
+    border-radius: 1000px;
+    margin-top: 15px;
+}
+
+/* about related style */
+.about-container{
+    width: 100%;
+    max-width: 1600px;
+    height: 646px;
+    background-color: #1A0B2E;
+    justify-content: center;
+    align-items: center;
     
 
+}
+.about-text{
+   width: 1200px; 
+    margin: 0 auto;
+    justify-self: center;
+    padding: 60px 200px;
+    /* border: 2px solid white; */
+}
+.about-container h2{
+color: white;
+font-size: 3rem ;
+font-weight: 700px;
+line-height: 100%;
+}
+.about-container p{
+    color: white;
+    margin-top: 16px;
+    opacity: 80%;
+   
+}
+.about-container hr{
+    width: 1200px;
+    margin: 0 auto;
+}
+.about-text span{
+    color: white;
+}
+.about-card{
+    width: 1200px; 
+    height: 94px;
+    margin: 80px 150px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
 
 
+}
+.about-card h3{
+    color: #00FF88;
+    font-size: 3rem;
+    font-weight: 900px;
+}
+.about-card h3 i{
+    font-size: 1.75rem;
+    
+
+    
 }
 
 
