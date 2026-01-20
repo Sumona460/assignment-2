@@ -248,12 +248,56 @@ line-height: 100%;
 
 }
 /* featured episodes related style */
-.episodes{
+.episodes-section{
     background-color: #1A0B2E;
+
 }
-.episodes h2{
+.episodes{
+    display: flex;
+    gap: 25px;
+    
+    margin: 80px;
+
+
+}
+.episodes-section h2{
     color: white;
+    font-size: 3rem;
+    padding-top: 40px;
+    text-align: center;
 }
+.ep-card{
+background-color: #230E3D;
+ border-radius: 40px;
+ position: relative;
+ 
+    
+}
+.play-btn{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+    
+}
+.card-content{
+    padding: 20px;
+}
+.ep-card h5{
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+.ep-card p{
+    color: white;
+    opacity: 60%;
+    text-wrap: wrap;
+}
+
+.ep-card span{
+    color: #00FF88;
+}
+
 .host{
     background-color: #1A0B2E;
     padding: 120px;
