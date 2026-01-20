@@ -48,6 +48,9 @@ color: white;
     font-weight: 600px;
 
 }
+.nav-btn:hover{
+    background: linear-gradient(to right, #f53c04, #FB09B4, #d0b5e4);
+}
 
 /* Banner related style */
 .banner{
@@ -67,8 +70,12 @@ color: white;
     left: 40%;
     right: 50%;
     bottom: 60%;
+    transition: transform  2s ;
     
 
+}
+.microphone:hover{
+   transform: scale(1.2) translateY(30px);
 }
 .badge{
     background-color: #00FF88;
@@ -126,6 +133,10 @@ color: white;
     width: 1rem;
     height: 1rem;
 }
+.first-btn:hover{
+     background: linear-gradient(to right, #f53c04, #FB09B4, #d0b5e4);
+    cursor: pointer;
+}
 
 .second-btn{
     width: 147px;
@@ -136,7 +147,10 @@ color: white;
     border-radius: 1000px;
     margin-top: 15px;
 }
-
+.second-btn:hover{
+   background: linear-gradient(to right, #f53c04, #f8003e, #00fff2);
+    cursor: pointer;
+}
 /* about related style */
 .about-container{
     height: 646px;
