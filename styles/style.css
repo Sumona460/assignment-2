@@ -56,9 +56,29 @@ color: white;
     height: 760px;
      background-size: cover;
      background-position: center;
-     /* position: absolute; */
+      /* position: absolute;  */
+      position: relative;
      
 
+}
+.microphone{
+    width: 116px;
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    right: 50%;
+    bottom: 60%;
+    
+
+}
+.badge{
+    background-color: #00FF88;
+    padding: 5px 10px;
+    border-radius: 30px;
+    position: absolute;
+    top: 22%;
+    right: 23%;
+    
 }
 .banner-content{
     display: flex;
@@ -69,18 +89,18 @@ color: white;
     height: 558px;
     padding: 100px;
     position: absolute;
-    top: 10%;
+    top: 3%;
     left: 30%;
     right: 30%; 
-    bottom: 30%;
+    bottom: 40%;
    
 }
 .techwave-content{
-     position: relative;
-     top: 60%; 
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+     position: absolute;
+     top: 70%; 
+     right: 29%;
+    text-align: center;
+
 
 }
 
@@ -95,16 +115,7 @@ color: white;
     color: white;
 }
  
-.btn{
-    display: flex;
-    width: 356px;
-    height: 44px;
-    gap: 8px;
-    justify-content: center;
-    align-items: center;
-    padding-left: 80px;
-    padding-top: 25px;
-}
+
 .first-btn{
     width: 201px;
     height: 44px;
