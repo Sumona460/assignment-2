@@ -8,7 +8,7 @@
 body{
     font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  /* max-width: 1300px; */
+  
 }
 /* Navbar related style */
 .navbar{
@@ -55,10 +55,8 @@ color: white;
     background-image: url(../assets/hero-bg.png);
     height: 760px;
      background-size: cover;
-     /* background-size: contain; */
      background-position: center;
-      /* position: absolute;  */
-      position: relative;
+     position: relative;
      
 
 }
@@ -77,8 +75,8 @@ color: white;
     padding: 5px 10px;
     border-radius: 30px;
     position: absolute;
-    top: 22%;
-    right: 23%;
+    top: 21%;
+    right: 20%;
     
 }
 .banner-content{
@@ -86,8 +84,6 @@ color: white;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    /* width: 550px; */
-    height: 558px;
     padding: 100px;
     position: absolute;
     top: 3%;
@@ -98,8 +94,8 @@ color: white;
 }
 .techwave-content{
      position: absolute;
-     top: 70%; 
-     right: 29%;
+     top: 60%; 
+     right: 30%;
     text-align: center;
 
 
@@ -143,12 +139,9 @@ color: white;
 
 /* about related style */
 .about-container{
-    
     height: 646px;
     background-color: #1A0B2E;
     text-align: center;
-    
-    
 
 }
 .about-text{
@@ -224,8 +217,11 @@ line-height: 100%;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     border-radius: 40px;
-    /* max-width: 1200px; */
     margin: 0 auto;
+}
+.layout-container h4{
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 .audio{
  grid-columns: span 1;
@@ -263,6 +259,7 @@ line-height: 100%;
 .episodes-section h2{
     color: white;
     font-size: 3rem;
+    font-weight: bold;
     padding-top: 40px;
     text-align: center;
 }
@@ -319,9 +316,9 @@ background-color: #230E3D;
      opacity: 40%;
     
 } 
+
 .host-content{
     background-color: #35116566;
-    /* opacity: 40%; */
     border-radius: 40px;
     display: flex;
     justify-content: center;
@@ -337,7 +334,7 @@ background-color: #230E3D;
     margin-top: 10px;
 }
 .youtube{
-    padding: 2px;
+    padding: 3px;
 }
 .footer{
     background-image: url(../assets/footer-bg.png);
@@ -348,7 +345,7 @@ background-color: #230E3D;
 .footer-section{
     display: flex;
     flex-direction: column;
-    /* padding-top: 150px; */
+    
 }
 .footer-logo{
     text-align: center;
@@ -368,6 +365,7 @@ background-color: #230E3D;
 
    
 }
+
 .sponsors a{
     color: white;
     opacity: 60%;
@@ -392,5 +390,73 @@ background-color: #230E3D;
     .menu, .nav-btn{
         display: none;
     }
+    .banner{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .banner-content .circle{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 19%;
+        right: 20%;
+        left: -19%;
+    }
+    .microphone{
+        width: 90px;
+        left: 21%;
+    }
+    .badge{
+        right: 12%;
+    }
+    .techwave-content{
+        padding-left: 30px;
+        right: 5%;
+    }
+    .btn{
+        display: flex;
+        gap: 15px;
+    }
+    .about-card{
+        padding: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 5px;
+        padding-top: 0;
+    }
+    .about-text{
+        padding: 5px;
+    }
+
+    .why-title{
+        font-size: 2.5rem;
+       margin-top: 20px;
+    }
+    .why{
+        padding: 10px;
+    }
+    .layout-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .episodes{
+        margin: 10px;
+        flex-direction: column;
+    }
+    .episodes .img-1{
+        width: 100%;
+    }
+    .host{
+        padding: 10px;
+    }
+    .host-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
     
 }
