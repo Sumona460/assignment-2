@@ -55,6 +55,7 @@ color: white;
     background-image: url(../assets/hero-bg.png);
     height: 760px;
      background-size: cover;
+     /* background-size: contain; */
      background-position: center;
       /* position: absolute;  */
       position: relative;
@@ -142,20 +143,19 @@ color: white;
 
 /* about related style */
 .about-container{
-    /* width: 100%; */
+    
     height: 646px;
     background-color: #1A0B2E;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    
     
 
 }
 .about-text{
-   /* width: 1200px;  */
     margin: 0 auto;
     justify-self: center;
-    padding: 60px 200px;
-    /* border: 2px solid white; */
+    padding-bottom: 20px;
+    padding-top: 60px;
 }
 .about-container h2{
 color: white;
@@ -170,14 +170,16 @@ line-height: 100%;
    
 }
 .about-container hr{
-    /* width: 1200px; */
     margin: 0 auto;
+    color: white;
+    opacity: 60%;
+
 }
 .about-text span{
     color: white;
+    padding-bottom: 30px;
 }
 .about-card{
-    /* width: 1200px;  */
     height: 94px;
     margin: 80px 150px;
     display: grid;
@@ -192,32 +194,21 @@ line-height: 100%;
     font-size: 3rem;
     font-weight: 900px;
 }
-.about-card h3 i{
-    font-size: 1.75rem;
-    
-
-    
-}
 
 /* why choose related style */
 .why{
-    /* width: 100%; */
     background-color: #230E3D;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px;
     
 }
-.why h2{
-    color: white;
-    font-size: 3rem;
-    font-weight: 700px;
-    
-}
+
 .why-title{
-    /* width: 1200px; */
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 700px;
     justify-content: center;
-    margin-left: 33%;
-    padding-bottom: 40px;
+    text-align: center;
+    padding-bottom: 30px;
     
 
 }
@@ -226,7 +217,7 @@ line-height: 100%;
 }
 .why p{
     color: white;
-    opacity: 80%;
+    opacity: 60%;
 }
 .layout-container{
     display: grid;
@@ -256,26 +247,73 @@ line-height: 100%;
     border-radius: 40px;
 
 }
-
-
-.footer{
-    height: 412px;
-    background-image: url(../assets/footer-bg.png);
+/* featured episodes related style */
+.episodes{
+    background-color: #1A0B2E;
+}
+.episodes h2{
+    color: white;
+}
+.host{
+    background-color: #1A0B2E;
+    padding: 120px;
+   
+}
+.host h3{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.host h4{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.host p{
+    color: white;
+     opacity: 40%;
     
+} 
+.host-content{
+    background-color: #35116566;
+    /* opacity: 40%; */
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 20px;
+    
+}
+.icon{
+    border: 1px solid rgb(112, 31, 31);
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.youtube{
+    padding: 2px;
+}
+.footer{
+    background-image: url(../assets/footer-bg.png);
+   padding: 80px; 
+   background-position: center;
+   background-size: contain;
 }
 .footer-section{
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
+    /* padding-top: 150px; */
 }
 .footer-logo{
-    align-self: center;
+    text-align: center;
     
 }
 .footer-p{
     color: white;
     opacity: 60%;
-    align-self: center;
+    text-align: center;
 }
 .sponsors{
     display: flex;
