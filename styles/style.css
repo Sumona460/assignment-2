@@ -426,6 +426,7 @@ background-color: #230E3D;
     .btn{
         display: flex;
         gap: 15px;
+        padding-left: 35px;
     }
     .about-card{
         padding: 10px;
