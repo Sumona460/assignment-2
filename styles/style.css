@@ -338,15 +338,10 @@ background-color: #230E3D;
 }
 .footer{
     background-image: url(../assets/footer-bg.png);
-   padding: 80px; 
+   padding: 60px; 
    background-position: center;
-   background-size: contain;
 }
-.footer-section{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 .footer-logo{
     text-align: center;
     
@@ -357,19 +352,19 @@ background-color: #230E3D;
     text-align: center;
 }
 .sponsors{
-    display: flex;
-    flex-direction: row;
-   align-self: center;
-   gap: 40px;
-   padding: 30px;
-
-   
+   display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   padding: 30px 0;
+   text-align: center;
+   width: 60%;
+   margin: 0 auto;
 }
 
 .sponsors a{
     color: white;
     opacity: 60%;
     text-decoration: none;
+    gap: 10px;
 
 }
 
@@ -424,7 +419,7 @@ background-color: #230E3D;
         margin-top: 0px;
         margin-right: 0px;
         margin-left: 5px;
-        padding-top: 0;
+        padding-top: 30px;
     }
     .about-text{
         padding: 5px;
@@ -457,6 +452,17 @@ background-color: #230E3D;
         flex-direction: column;
         text-align: center;
     }
+    .footer{
+        /* background-repeat: no-repeat; */
+    
+    }
+    
+    .sponsors{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    
+
 
     
 }
